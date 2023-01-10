@@ -1,0 +1,18 @@
+{
+  "name": "setup-react-with-webpack",
+  "version": "1.0.0",
+  "description": "WeHelp Office Hour",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChengYiLin/Setup-React-with-Webpack.git"
+  },
+  "author": "martin lin",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
