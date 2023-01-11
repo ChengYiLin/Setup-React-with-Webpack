@@ -33,6 +33,9 @@
 | Eslint   | JavaScript Linter，幫你進行靜態的的語法分析，抓出常見的錯誤                    |
 | Prettier | 程式碼格式化工具，可確保你專案中的 Coding Style 一致                           |
 
+本篇文章只會將重點著重在以上提到的工具，<br>
+其餘的配置相信讀者在讀完之後，有能力自行完成<br>
+
 ## 建立開發環境
 
 ### 1. 安裝 EsLint 及 Prettier
@@ -448,6 +451,8 @@ npm install --save-dev @babel/preset-react
 以上就完成了 React + Webpack + Babel 的基本配置了，<br>
 之後如果需要加其他的配置，例如讓 [Webpack 讀懂 CSS](https://webpack.js.org/guides/asset-management/#loading-css) 或是 [Webpack 讀懂圖片檔](https://webpack.js.org/guides/asset-management/#loading-images)，<br>
 相信對讀完此篇的各位也不是太難的問題，<br>
+整篇文章的程式碼放在我的 [Github](https://github.com/ChengYiLin/Setup-React-with-Webpack) 上，<br>
+喜歡也不忘給個星星，
 Happy Coding 🥳
 
 ## 參考資料
