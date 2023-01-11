@@ -1,3 +1,7 @@
+import { one } from "./setting";
+
+alert(one());
+
 const root = document.getElementById("root");
 
 const helloWebpack = document.createElement("h1");
