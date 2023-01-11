@@ -1,27 +1,29 @@
 {
-  "name": "setup-react-with-webpack",
-  "version": "1.0.0",
-  "description": "WeHelp Office Hour",
-  "private": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ChengYiLin/Setup-React-with-Webpack.git"
-  },
-  "author": "martin lin",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^8.31.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-react": "^7.31.11",
-    "prettier": "2.8.2",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+    "name": "setup-react-with-webpack",
+    "version": "1.0.0",
+    "description": "WeHelp Office Hour",
+    "private": true,
+    "scripts": {
+        "build": "webpack --mode='production'",
+        "dev": "webpack serve --mode='development'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ChengYiLin/Setup-React-with-Webpack.git"
+    },
+    "author": "martin lin",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^8.31.0",
+        "eslint-config-prettier": "^8.6.0",
+        "eslint-plugin-react": "^7.31.11",
+        "prettier": "2.8.2",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1",
+        "webpack-dev-server": "^4.11.1"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
 }

@@ -9,5 +9,6 @@
         "react": {
             "version": "detect"
         }
-    }
+    },
+    "ignorePatterns": ["webpack.config.js"]
 }
