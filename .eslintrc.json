@@ -5,11 +5,20 @@
     },
     "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
     "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
     "plugins": ["react"],
     "settings": {
         "react": {
             "version": "detect"
         }
     },
-    "ignorePatterns": ["webpack.config.js"]
+    "ignorePatterns": ["webpack.config.js"],
+    "rules": {
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off"
+    }
 }
